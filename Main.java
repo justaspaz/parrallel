@@ -73,7 +73,7 @@ public class Main {
         }
 
         // Test with different numbers of threads
-        int[] threadCounts = {1, 2, 4, 8, 16}; // Specify the number of threads to test
+        int[] threadCounts = {1, 2, 4, 8, 16, 32, 64, 128, 256}; // Specify the number of threads to test
 
         for (int numThreads : threadCounts) {
             int[] arrayCopy = Arrays.copyOf(array, array.length); // Create a fresh copy of the array for each test
