@@ -23,7 +23,7 @@ public class Main {
 
         @Override
         protected Void compute() {
-            if (right - left < 1000) {
+            if (right - left < 1000000) {
                 Arrays.sort(array, left, right + 1); // Fallback to sequential sort
             } else {
                 int mid = (left + right) / 2;
