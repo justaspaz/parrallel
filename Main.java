@@ -64,7 +64,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int size = 1 << 26; // Array size: 2^28 (268435456 elements)
+        int size = 1 << 28; // Array size: 2^28 (268435456 elements)
         int[] array = new int[size];
 
         // Initialize array with random values
